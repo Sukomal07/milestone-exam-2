@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #ccc;
+  padding: 20px;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.nav-items li {
+  list-style: none;
+}
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+.plus-btn {
+  all: unset;
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
