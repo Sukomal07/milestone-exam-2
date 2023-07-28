@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pw Skills Blog</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
 </head>
 
 <body>
@@ -17,63 +16,35 @@
                     <a href="./index.html" class="logo">PwSkills Blog</a>
                 </li>
                 <li>
-                    <button class="plus-btn">+</button>
+                    <button class="plus-btn" id="addNewBlog">+</button>
                 </li>
             </ul>
         </nav>
         <main class="blog-container">
-            <div class="blog-list">
+            <section class="blog-lists" id="blog-list">
                 <div class="blogs">
-                    <img src="" alt="" class="blog-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgFbu1-RyOXUSMNeSoga6Xh21A2kj0kCvfPuzc3cUmhg&s"
+                        alt="" class="blog-img">
                     <h3 class="blog-title">This is blog title</h3>
-                    <p class="blog-dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, enim?
-                    </p>
+                    <span class="blog-dec">This is a blog decription</span>
+                    <button class="read-blog">Read</button>
                 </div>
-                <div class="blogs">
-                    <img src="" alt="" class="blog-img">
-                    <h3 class="blog-title">This is blog title</h3>
-                    <p class="blog-dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, enim?
-                    </p>
-                </div>
-                <div class="blogs">
-                    <img src="" alt="" class="blog-img">
-                    <h3 class="blog-title">This is blog title</h3>
-                    <p class="blog-dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, enim?
-                    </p>
-                </div>
-                <div class="blogs">
-                    <img src="" alt="" class="blog-img">
-                    <h3 class="blog-title">This is blog title</h3>
-                    <p class="blog-dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, enim?
-                    </p>
-                </div>
-                <div class="blogs">
-                    <img src="" alt="" class="blog-img">
-                    <h3 class="blog-title">This is blog title</h3>
-                    <p class="blog-dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, enim?
-                    </p>
-                </div>
-                <div class="blogs">
-                    <img src="" alt="" class="blog-img">
-                    <h3 class="blog-title">This is blog title</h3>
-                    <p class="blog-dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, enim?
-                    </p>
-                </div>
-                <div class="blogs">
-                    <img src="" alt="" class="blog-img">
-                    <h3 class="blog-title">This is blog title</h3>
-                    <p class="blog-dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, enim?
-                    </p>
-                </div>
-                <div class="blogs">
-                    <img src="" alt="" class="blog-img">
-                    <h3 class="blog-title">This is blog title</h3>
-                    <p class="blog-dec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, enim?
-                    </p>
-                </div>
-            </div>
+            </section>
         </main>
+        <div class="model" id="model">
+            <div class="model-container">
+                <button class="close" id="close">&#x2715;</button>
+                <form>
+                    <input type="text" placeholder="Enter blog image url" id="img-url">
+                    <input type="text" placeholder="Enter blog title" id="blog-title">
+                    <input type="text" placeholder="Enter blog decription" id="blog-dec">
+                    <textarea name="content" id="content" cols="30" rows="10" placeholder="write"></textarea>
+                    <button class="add-blog" id="addBlog">Add Blog</button>
+                </form>
+            </div>
+        </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
