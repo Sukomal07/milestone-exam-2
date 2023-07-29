@@ -30,6 +30,8 @@ function displayBlogs() {
     const blogsData = getBlogsFromLocalStorage()
     const blogList = document.getElementById('blog-list')
 
+    blogList.innerHTML = ""
+
     blogsData.forEach((blog) => {
         const blogElement = createBlogElement(blog)
         blogList.appendChild(blogElement)
