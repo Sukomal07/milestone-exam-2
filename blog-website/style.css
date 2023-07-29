@@ -42,6 +42,7 @@ body::-webkit-scrollbar {
   width: 90%;
   margin: auto;
   gap: 10px;
+  justify-items: center;
 }
 .blogs {
   border: 1px solid black;
@@ -173,4 +174,22 @@ textarea {
   font-size: 20px;
   line-height: 40px;
   word-spacing: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .blogs {
+    width: 300px;
+  }
+  .blog-header {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .blog-heading {
+    width: 100%;
+    text-align: center;
+  }
+  .blog-img {
+    width: 250px;
+    height: 100%;
+  }
 }
