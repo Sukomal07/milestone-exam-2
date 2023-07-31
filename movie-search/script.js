@@ -4,7 +4,7 @@ const loader = document.querySelector('.loader')
 const errorElement = document.querySelector('.error');
 const apiKey = '2357dc4a'
 
-const img = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPQDYau3Hs4-xw1i8jVSUY4BlF4FLmg8lQqg&usqp=CAU'
+const img = '//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPQDYau3Hs4-xw1i8jVSUY4BlF4FLmg8lQqg&usqp=CAU'
 
 //function display movie list with data
 function displayMovieList(movieData) {
@@ -35,7 +35,7 @@ function displayMovieList(movieData) {
 //function to fetch data from api
 async function searchMovie(searchTerm) {
     try {
-        const response = await fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=${apiKey}&s=${searchTerm}`)
+        const response = await fetch(`//www.omdbapi.com/?i=tt3896198&apikey=${apiKey}&s=${searchTerm}`)
         const data = await response.json()
         if (data.Response === "True") {
             displayMovieList(data.Search)
