@@ -31,16 +31,16 @@ The **todo-app** is a simple Todo application built using React. It allows users
 1. Navigate to the `todo-app` directory.
 2. Install the required dependencies by running `npm install` in your terminal.
 3. Start the development server by running `npm start`.
-4. Open your web browser and visit the development server URL (usually http://localhost:3000).
+4. Open your web browser and visit the development server URL (usually http://localhost:5173).
 5. Use the Todo App to add tasks, mark them as completed, and remove completed tasks.
 
 ## Deployment Links
 
 Below are the deployment links for each of the three applications:
 
-1. **Blog Website Deployment**: [Link](#https://blog-website-pi-ten.vercel.app)
-2. **Movie Search Deployment**: [Link](#https://movie-search-sukomal07.vercel.app)
-3. **Todo App Deployment**: [Link](#https://todo-sukomal07.vercel.app)
+1. **Blog Website Deployment**: [Link](https://blog-website-pi-ten.vercel.app)
+2. **Movie Search Deployment**: [Link](https://movie-search-sukomal07.vercel.app)
+3. **Todo App Deployment**: [Link](https://todo-sukomal07.vercel.app)
 
 Please note that the deployment links will take you to the live versions of the applications, allowing you to use them without setting up anything locally.
 
