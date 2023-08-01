@@ -30,7 +30,7 @@ The **todo-app** is a simple Todo application built using React. It allows users
 
 1. Navigate to the `todo-app` directory.
 2. Install the required dependencies by running `npm install` in your terminal.
-3. Start the development server by running `npm start`.
+3. Start the development server by running `npm run dev`.
 4. Open your web browser and visit the development server URL (usually http://localhost:5173).
 5. Use the Todo App to add tasks, mark them as completed, and remove completed tasks.
 
