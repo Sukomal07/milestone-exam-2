@@ -52,7 +52,7 @@ function App() {
                 todo && (
                   <div className="todos" key={idx}>
                     <div className="heading">
-                      <span className="todo-number">{idx}.</span>
+                      <span className="todo-number">{idx + 1}.</span>
                       <h1 className="todo-title">{todo.title}</h1>
                     </div>
                     <span className="todo-status">Status : {todo.status}</span>
